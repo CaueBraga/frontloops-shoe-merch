@@ -1,0 +1,26 @@
+.white-card {
+  width: 35%;
+  height: 60%;
+  background-color: white;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  padding-left: 100px;
+  padding-top: 60px;
+}
+
+.white-card__header {
+  &__price {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.white-card__text {
+  font-size: 15px;
+  font-weight: 300;
+  max-width: 91%;
+  line-height: 23px;
+  margin-bottom: 50px;
+}
